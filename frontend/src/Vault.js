@@ -7,7 +7,7 @@ function Vault() {
 
   useEffect(() => {
     axios
-      .get("https://nitbucket-info-equipment.vercel.app/api/info")
+      .get("https://nit-bucket-construction.vercel.app/api/info")
       .then((response) => {
         setData(response.data);
       })

